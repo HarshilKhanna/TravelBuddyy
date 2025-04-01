@@ -2,12 +2,12 @@
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { Bell, Car, Menu, X } from "lucide-react"
+import { Bell, Car, Menu, X, User } from "lucide-react"
 
 import { cn } from "@/lib/utils"
-import { Button } from "@/TravelBuddyy/components/ui/button.jsx"
-import { ThemeToggle } from "@/TravelBuddyy/components/theme-toggle.jsx"
-import { Avatar, AvatarFallback, AvatarImage } from "@/TravelBuddyy/components/ui/avatar.jsx"
+import { Button } from "@/components/ui/button.jsx"
+import { ThemeToggle } from "@/components/theme-toggle.jsx"
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar.jsx"
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -15,7 +15,7 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/TravelBuddyy/components/ui/dropdown-menu.jsx"
+} from "@/components/ui/dropdown-menu.jsx"
 import { useTheme } from "next-themes"
 
 export function MainNav() {
@@ -94,7 +94,7 @@ export function MainNav() {
                 <DropdownMenuContent className="w-56" align="end" forceMount>
                   <DropdownMenuLabel className="font-normal">
                     <div className="flex flex-col space-y-1">
-                      <p className="text-sm font-medium leading-none">Aditya Singh</p>
+                      <p className="text-sm font-medium leading-none">Harshil Khanna</p>
                       <p className="text-xs leading-none text-muted-foreground">a.singh2021@vitstudent.ac.in</p>
                     </div>
                   </DropdownMenuLabel>

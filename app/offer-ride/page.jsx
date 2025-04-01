@@ -2,13 +2,14 @@
 
 import React from "react"
 import Link from "next/link"
-import { MainNav } from "@/TravelBuddyy/components/main-nav.jsx"
-import { SiteFooter } from "@/TravelBuddyy/components/site-footer.jsx"
-import { Button } from "@/TravelBuddyy/components/ui/button.jsx"
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/TravelBuddyy/components/ui/card.jsx"
-import { Input } from "@/TravelBuddyy/components/ui/input.jsx"
-import { Textarea } from "@/TravelBuddyy/components/ui/textarea.jsx"
-import { Separator } from "@/TravelBuddyy/components/ui/separator.jsx"
+import { Calendar, MapPin } from "lucide-react"
+import { MainNav } from "@/components/main-nav.jsx"
+import { SiteFooter } from "@/components/site-footer.jsx"
+import { Button } from "@/components/ui/button.jsx"
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card.jsx"
+import { Input } from "@/components/ui/input.jsx"
+import { Textarea } from "@/components/ui/textarea.jsx"
+import { Separator } from "@/components/ui/separator.jsx"
 
 const OfferRidePage = () => {
   return (

@@ -3,10 +3,10 @@
 import Link from "next/link"
 import { Bell, Car, Plus } from "lucide-react"
 
-import { Button } from "@/TravelBuddyy/components/ui/button.jsx"
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/TravelBuddyy/components/ui/card.jsx"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/TravelBuddyy/components/ui/tabs.jsx"
-import { Input } from "@/TravelBuddyy/components/ui/input.jsx"
+import { Button } from "@/components/ui/button.jsx"
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card.jsx"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs.jsx"
+import { Input } from "@/components/ui/input.jsx"
 
 export default function DashboardPage() {
   return (

@@ -2,10 +2,10 @@
 
 import React from "react"
 import { User, Mail, Phone, Car } from "lucide-react"
-import { Button } from "@/TravelBuddyy/components/ui/button.jsx"
-import { Card, CardContent, CardHeader } from "@/TravelBuddyy/components/ui/card.jsx"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/TravelBuddyy/components/ui/tabs.jsx"
-import { Badge } from "@/TravelBuddyy/components/ui/badge.jsx"
+import { Button } from "@/components/ui/button.jsx"
+import { Card, CardContent, CardHeader } from "@/components/ui/card.jsx"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs.jsx"
+import { Badge } from "@/components/ui/badge.jsx"
 
 const SettingsPage = () => {
   return (
@@ -57,7 +57,7 @@ const SettingsPage = () => {
                 </div>
                 <Button variant="outline">Change</Button>
               </div>
-              
+
             </CardContent>
           </Card>
         </TabsContent>

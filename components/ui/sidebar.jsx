@@ -2,10 +2,11 @@
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
+import { Bell, Car, Settings, User } from "lucide-react"
 import { cn } from "@/lib/utils"
-import { Button } from "@/TravelBuddyy/components/ui/button.jsx"
-import { ScrollArea } from "@/TravelBuddyy/components/ui/scroll-area.jsx"
-import { Sheet, SheetContent, SheetTrigger } from "@/TravelBuddyy/components/ui/sheet.jsx"
+import { Button } from "@/components/ui/button.jsx"
+import { ScrollArea } from "@/components/ui/scroll-area.jsx"
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet.jsx"
 import { Menu } from "lucide-react"
 
 const sidebarNavItems = [

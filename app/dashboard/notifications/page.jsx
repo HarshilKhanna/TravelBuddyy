@@ -2,8 +2,8 @@
 
 import { Bell } from "lucide-react"
 
-import { Button } from "@/TravelBuddyy/components/ui/button.jsx"
-import { Card, CardContent, CardHeader, CardTitle } from "@/TravelBuddyy/components/ui/card.jsx"
+import { Button } from "@/components/ui/button.jsx"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card.jsx"
 
 export default function NotificationsPage() {
   return (

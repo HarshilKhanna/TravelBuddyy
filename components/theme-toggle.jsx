@@ -2,8 +2,8 @@
 import { Moon, Sun } from "lucide-react"
 import { useTheme } from "next-themes"
 
-import { Button } from "@/TravelBuddyy/components/ui/button.jsx"
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/TravelBuddyy/components/ui/dropdown-menu.jsx"
+import { Button } from "@/components/ui/button.jsx"
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu.jsx"
 
 export function ThemeToggle() {
   const { setTheme } = useTheme()

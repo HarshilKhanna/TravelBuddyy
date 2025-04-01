@@ -1,9 +1,9 @@
 import Link from "next/link"
 import { Building2, Calendar, Car, ChevronDown, MapPin, Search, User } from "lucide-react"
 
-import { MainNav } from "@/TravelBuddyy/components/main-nav.jsx"
-import { SiteFooter } from "@/TravelBuddyy/components/site-footer.jsx"
-import { Button } from "@/TravelBuddyy/components/ui/button.jsx"
+import { MainNav } from "@/components/main-nav.jsx"
+import { SiteFooter } from "@/components/site-footer.jsx"
+import { Button } from "@/components/ui/button.jsx"
 
 export default function Home() {
   return (

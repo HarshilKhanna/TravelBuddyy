@@ -1,12 +1,12 @@
 import Link from "next/link"
 import { Search } from "lucide-react"
-import { MainNav } from "@/TravelBuddyy/components/main-nav.jsx"
-import { SiteFooter } from "@/TravelBuddyy/components/site-footer.jsx"
-import { Button } from "@/TravelBuddyy/components/ui/button.jsx"
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/TravelBuddyy/components/ui/card.jsx"
-import { Input } from "@/TravelBuddyy/components/ui/input.jsx"
-import { Separator } from "@/TravelBuddyy/components/ui/separator.jsx"
-import { Badge } from "@/TravelBuddyy/components/ui/badge.jsx"
+import { MainNav } from "@/components/main-nav.jsx"
+import { SiteFooter } from "@/components/site-footer.jsx"
+import { Button } from "@/components/ui/button.jsx"
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card.jsx"
+import { Input } from "@/components/ui/input.jsx"
+import { Separator } from "@/components/ui/separator.jsx"
+import { Badge } from "@/components/ui/badge.jsx"
 
 export default function FindRidePage() {
   return (
