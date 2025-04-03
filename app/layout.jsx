@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata = {
   title: "TravelBuddy - Find Your Travel Companion",
   description: "Connect with fellow VIT Vellore students for shared rides to airports, cities, and more.",
-  generator: 'v0.dev'
+  generator: 'Harshil Khanna'
 }
 
 export default function RootLayout({ children }) {
